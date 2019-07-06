@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 1.2rem 1rem;
+  background-color: #3f3579;
+  color: white;
+}
+
+.cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 80vh min-content 40vw (min-content)[3];
+      grid-template-rows: 80vh -webkit-min-content 40vw repeat(3, -webkit-min-content);
+      grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  -ms-grid-columns: [full-start] 1fr [center-start] ([col-start] minmax(min-content, 10rem) [col-end])[6] [center-end] 1fr [full-end];
+      grid-template-columns: [full-start] 1fr [center-start] repeat(6, [col-start] minmax(-webkit-min-content, 10rem) [col-end]) [center-end] 1fr [full-end];
+      grid-template-columns: [full-start] 1fr [center-start] repeat(6, [col-start] minmax(min-content, 10rem) [col-end]) [center-end] 1fr [full-end];
+}
+
+.cont > div {
+  padding: .5rem;
+}
+
+.area1 {
+  background-color: darkslateblue;
+}
+
+.area2 {
+  background-color: darkred;
+}
+
+.area3 {
+  background-color: darkturquoise;
+}
+
+.area4 {
+  background-color: mediumslateblue;
+}
+
+.area5 {
+  background-color: olivedrab;
+}
+
+.area6 {
+  background: -webkit-gradient(linear, left top, left bottom, from(darkslateblue), to(darkturquoise));
+  background: linear-gradient(darkslateblue, darkturquoise);
+}
+
+.cont2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-top: 10rem;
+}
+
+.cont2 > div {
+  padding: .5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(mediumslateblue), to(darkred));
+  background: linear-gradient(mediumslateblue, darkred);
+}
+/*# sourceMappingURL=c-grid6.css.map */

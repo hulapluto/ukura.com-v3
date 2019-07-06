@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$c-navy: #010059;
+$c-navy-grey: #9999b5;
+$c-cobalt: #207dff;
+$c-magenta: #8d309b;
+$c-gold: #ffa900;
+$c-white: #fff;
+
+@mixin flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin flexCenterSB {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin breakpoint($width) {
+    @if $width == mobile {
+        @media (max-width: 50rem) { @content ; }
+    }
+}
+
+body {
+    margin: 2rem 5rem;
+}
+
+.img-r {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    border-top: .5rem solid $c-navy;
+    border-bottom: .5rem solid $c-navy;
+
+    @include breakpoint(mobile) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2, h3, p, ul {
+        margin-bottom: 1.3rem;
+    }
+
+    ul {
+        margin-left: 2rem;
+    }
+}
+
+header {
+    @include flexCenterSB; 
+
+    // margin: 1rem 2rem;
+    padding-bottom: 2rem;
+
+    ul {
+        list-style: none;
+        
+        li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    nav {
+
+        @include breakpoint(mobile) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        a:link {
+            color: $c-magenta;
+            text-decoration: none;
+        }
+        a:hover {
+            color: $c-cobalt;
+            text-decoration: underline;
+        }
+    }
+
+    h1 {
+        color: $c-navy;
+        font-size: 3rem;
+    }
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3rem;
+    width: 100%;
+}
+
+.logo-img {
+    border-radius: 50%;
+}
+
+.left {
+    flex: 0 1 50%; 
+    padding: 2rem;
+}
+
+.right {
+    flex: 0 1 50%; 
+    padding: 2rem;
+    display: flex;
+}
+
+.left {
+    border-right: .25rem solid $c-navy;
+    background: lighten($c-navy-grey, 33%);
+
+    @include breakpoint(mobile) {
+        flex: 0 0 100%;
+        padding: 2rem;
+        border-right: none;
+    }
+}
+
+.right {
+    border-left: .25rem solid $c-navy;
+    background: lighten($c-gold, 39%);
+
+    @include breakpoint(mobile) {
+        flex: 0 0 100%;
+        padding: 2rem;
+        border-left: none;
+    }
+}
+
+.box1 {
+    padding: 2rem; 
+    background-color: $c-gold;
+}
+
+.box2 {
+    padding: 2rem; 
+    background-color: $c-magenta;
+}
+
+.rbox {
+    padding: 2rem; 
+    color: $c-white;
+    background-color: $c-cobalt;
+    flex: 1;
+}
+
+footer {
+    padding: 3rem;
+    color: $c-white;
+    background-color: $c-navy;
+}

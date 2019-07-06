@@ -1,0 +1,16 @@
+P { font-size:10pt; line-height:13pt; font-family: arial, helvetica, sans-serif; 
+color:#191919 } SPAN { font-size: 10pt; line-height: 13pt; font-family: arial, 
+helvetica,sans-serif; color: #191919 } .bold { font-size: 10pt; font-weight: bold; 
+line-height: 12pt; font-family: arial, helvetica, sans-serif; color: #191919 } 
+.small { font-size: 9pt; line-height: 12pt; font-family: arial, helvetica, sans-serif; 
+color: #191919 } .smallbold { font-size: 9pt; font-weight: bold; line-height: 
+13pt; font-family: arial, helvetica,sans-serif; color: #191919 } .fineprint { 
+font-size: 8pt; line-height: 11pt; font-family: arial, helvetica, sans-serif; 
+color: #191919 } .mainhead { font-size: 12pt; font-weight: bold; line-height: 
+14pt; font-family: arial, helvetica, sans-serif; color:#191919 } .subhead { font-size: 
+11pt; line-height: 13pt; font-family: arial, helvetica, sans-serif; color: #191919; 
+font-weight: bold } .body { font-size: 10pt; line-height: 13pt; font-family: arial, 
+helvetica, sans-serif; color: #191919 } A { color: #003399 } a:hover {  color: #0066FF }
+INPUT { BORDER-RIGHT: #6699CC 1px solid; BORDER-TOP: #6699CC 1px solid; FONT-SIZE: 10px; MARGIN: 1px 
+1px 1px 1px; BORDER-LEFT: #6699CC 1px solid; COLOR: #333333; BORDER-BOTTOM: #6699CC 
+1px solid; BACKGROUND-COLOR:#FFFFFF }

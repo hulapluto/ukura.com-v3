@@ -1,0 +1,74 @@
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.cards-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(72, 209, 204, 0.5)), to(rgba(123, 104, 238, 0.5)));
+  background: linear-gradient(rgba(72, 209, 204, 0.5) 40%, rgba(123, 104, 238, 0.5));
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+}
+
+.cards-item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 37.5rem) {
+  .cards-item {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .cards-item {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .cards-item {
+    max-width: 27%;
+  }
+}
+
+.cards-item .card-img-1 {
+  background: url(../../../img/pf-joinmyvillage-450x250.jpg) no-repeat top center/cover;
+}
+
+.cards-item .card-img-2 {
+  background: url(../../../img/pf-gm-growupstrong-450x250.jpg) no-repeat;
+}
+
+.cards-item .card-img-3 {
+  background: url(../../../img/pf-muirglen-450x250.jpg) no-repeat;
+}
+
+.cards-item .card-img-4 {
+  background: url(../../../img/pf-uslink-450x250.jpg) no-repeat;
+}
+
+.cards-item .card-img-5 {
+  background: url(../../../img/pf-wkfs-auto-lending-450x250.jpg) no-repeat;
+}
+
+.cards-item .card-img-6 {
+  background: url(../../../img/pf-econo-garages-450x250.jpg) no-repeat;
+}
+
+.cards-item .card h3 {
+  color: midnightblue;
+}
+/*# sourceMappingURL=cards4.css.map */

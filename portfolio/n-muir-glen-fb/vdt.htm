@@ -1,0 +1,33 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head id="Head1" runat="server">
+
+        <link href="css/tabs.css" rel="stylesheet" type="text/css" />
+        <script src="js/jquery-1.6.4.min.js" type="text/javascript" ></script>
+        <script src="js/jquery.tools.min.js" type="text/javascript" ></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // setup ul.tabs to work as tabs for each div directly under div.panes
+                $("ul.tabs").tabs("div.panes > div", { history: true });
+            });
+        </script>
+    </head>
+    <body>
+        <form id="form1" runat="server">            
+            <div>            
+                <!-- the tabs -->
+                <ul class="tabs">
+	                <li><a href="#">AUTUMN EVENT</a></li>
+	                <li><a href="#">HOLIDAY EVENT</a></li>
+                </ul>
+                <!-- tab "panes" -->
+                <div class="panes">
+                    <div><table><tr><td>CONTENT for AUTUMN EVENT</td></tr></table></div>
+                    <div><table><tr><td>CONTENT for HOLIDAY EVENT</td></tr></table></div>
+                </div> 
+            </div>
+        </form>
+    </body>
+</html>

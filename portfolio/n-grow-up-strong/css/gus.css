@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+html { font-family: sans-serif; }
+body { margin: 0 auto; padding: 0; box-sizing: border-box; }
+/*background-color: #acd373; */
+.cloudbak {
+  background-image: url("../img/cloudtree.jpg");
+  background-position: center bottom;
+  /*bottom center*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 75%;
+  background-color: rgba(0,0,0,.2);
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 5rem;
+}
+.logo {
+  align-self: flex-start;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  line-height: 2rem;
+
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+nav ul li a { color: #ec008c; text-decoration: none; }
+nav ul li a:hover { background-color: rgba(255, 255, 255, .5);}
+.search {
+  align-self: flex-end;
+  height: 20px;
+  /*float: right;
+  margin: 1.4rem 0 0 2rem; */
+}

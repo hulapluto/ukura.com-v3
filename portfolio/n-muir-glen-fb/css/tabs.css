@@ -1,0 +1,101 @@
+﻿/* ---------------------------------------------------------------------
+Global
+------------------------------------------------------------------------ */
+
+body {
+    background-color: #ffffff;
+    font-family: arial, helvetica, futura-pt, Verdana, sans-serif;
+    font-size: 14px;
+    /*letter-spacing: 1.05px;*/
+}
+
+/* root element for tabs  */
+ul.tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;	
+	/*border-bottom:1px solid #666;	*/
+}
+
+/* single tab */
+ul.tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+	
+}
+
+li.tab1 { width: 257px; height: 36px; }
+li.tab2 { width: 244px;  height: 36px;}
+li.tab1 a { background: url(../images/navL_off.png);  }
+li.tab2 a { background: url(../images/navR_off.png); }
+/*li.tab1 a.off { width: 257px; background: url(../images/navL_off.png); height: 36px; }
+li.tab2 a.off { width: 244px; background: url(../images/navR_on.png); height: 36px; }*/
+
+/* link inside the tab. uses a background image */
+ul.tabs a {
+	
+	display:block;
+	height: 36px;
+	
+	padding:0px;
+	margin:0px;
+	position:relative;
+	top:0px;
+/*	background-image: url(../images/mgnav.png);
+	background-repeat: no-repeat;
+	background-position: -244 -36;*/
+}
+
+ul.tabs a:active {
+	outline:none;	
+	/*background-position: 0px 0;	*/
+}
+
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover {
+	/*background-position: -258px -36px;	*/
+	color:#cc0000;	
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+/*ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	background-position: 0px 0px;		
+	cursor:default !important; 
+	color:#cc0000 !important;
+}*/
+ul.tabs li.tab1 a.current {
+	background: url(../images/navL_on.png);}
+ul.tabs li.tab2 a.current {
+	background: url(../images/navR_on.png);}
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+ul.tabs a.s 			{ background-position: -258px 0; width:258px; }
+ul.tabs a.s:hover 	{ background-position: -553px -31px; }
+ul.tabs a.s.current  { background-position: -553px -62px; }
+
+/* width 2 */
+ul.tabs a.l 			{ background-position: -248px -0px; width:174px; }
+ul.tabs a.l:hover 	{ background-position: -248px -31px; }
+ul.tabs a.l.current  { background-position: -248px -62px; }
+
+
+/* width 3 */
+ul.tabs a.xl 			{ background-position: 0 -0px; width:248px; }
+ul.tabs a.xl:hover 	{ background-position: 0 -31px; }
+ul.tabs a.xl.current { background-position: 0 -62px; }
+
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;		
+}
+
+/* tab pane styling */
+div.panes {
+	/*display:none;*/		
+}

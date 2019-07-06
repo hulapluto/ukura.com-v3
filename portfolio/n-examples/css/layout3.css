@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.env {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.env:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.env::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.env-item {
+  float: left;
+}
+
+.env-item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.env .col-6 {
+  width: calc((100% - 3rem) / 2);
+}
+
+.env .col-4 {
+  width: calc(2 * ((100% - 2 * 3rem) / 3) + 3rem);
+}
+
+.env .col-3 {
+  width: calc(2 * ((100% - 3 * 3rem) / 4) + 3rem);
+}
+
+.bg2 {
+  background-color: #56e39f;
+}
+
+.bg1 {
+  background-color: #3e5c76;
+}
+
+.bg3 {
+  background-color: #3b2c35;
+}
+
+p, ul {
+  font-size: 1.5rem;
+}
+
+ul {
+  padding: 2rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #a62639;
+}
+
+header h1 {
+  color: #fff;
+}
+
+header .main-nav {
+  margin-left: auto;
+  padding: 0;
+  list-style: none;
+}
+
+header .main-nav li {
+  display: inline-block;
+}
+
+header .main-nav li:not(:last-child) {
+  padding-right: 3rem;
+}
+
+header .main-nav li :link {
+  color: #56e39f;
+}
+
+main {
+  margin: 0 5rem;
+}
+/*# sourceMappingURL=layout3.css.map */

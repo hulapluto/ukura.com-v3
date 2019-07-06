@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+
+    padding: .5rem;
+
+    &-item {
+        flex: 0 0 20rem;
+        background-color: lighten(darkcyan, 50%);
+        opacity: 0.7;
+        padding: .5rem 1rem;
+
+        margin: .5rem;
+        transition: 1s opacity;
+
+        &:hover {
+            background-color: lighten(darkcyan, 30%);
+            opacity: 1;
+        }
+    }
+
+}
+
+.cards1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: .5rem;
+
+    &-item {
+        flex: 0 0 22em;
+        padding: 1rem;
+        background-color: darkcyan;
+        margin: .5rem;
+        opacity: 0.8;
+        transition: 1s opacity;
+
+        @media screen and (min-width: 60em) {
+            flex: 0 1 calc(25% - 1em);
+        }
+
+        .imgr {
+            display: block;
+            max-width: 100%;
+        }
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        &:hover {
+            background-color: red;
+            opacity: 1;
+        }
+
+    }
+}

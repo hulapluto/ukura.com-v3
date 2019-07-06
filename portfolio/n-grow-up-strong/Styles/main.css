@@ -1,0 +1,85 @@
+/* GLOBAL */
+body {margin:0px;padding:0px;background: #acd373 url(../images/bg/background.jpg) no-repeat top center;font-family: arial, helvetica, sans-serif;font-size:14px;color:#333333;}
+img { border:0;}
+h1 { font-size:26px; font-weight:normal; color:#ec008c;font-family:Rockwell, "Palatino Linotype", "Book Antiqua", Palatino, serif;margin: 10px;padding:0px;}
+h2 { font-size:20px;font-weight:bold; color: #0088cb;font-family:Rockwell, "Palatino Linotype", "Book Antiqua", Palatino, serif;margin: 0px 50px 10px 10px;padding:0px;}
+h3 { font-size:16px; font-weight:bold; }
+div {margin:0px;padding:0px;}
+
+#GUScenter {position:relative;z-index:2;width:100%;height:100%;margin:0px;padding:0px;}
+#GUSwrapper {position:relative;z-index:3;width:974px;margin:0 auto; }
+
+div.logoHome {position:relative;z-index:4;float:left;clear:none;width:220px;margin-left:-10px;}
+div.topNav {position:relative;z-index:4;float:right;clear:none;width:auto;margin: 10px 35px 0px 0px;}
+div.topNav a {margin: 10px 0px 10px 40px;font-family:Rockwell, "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size:16px; color:#ef30a1; text-decoration:none;}
+div.topNav a:hover {text-decoration: underline;}
+div.topSearch {position:relative;z-index:4;float:right;clear:right;width:380px;margin: 20px 30px 10px 0px;}
+div.questionRotator {position:relative; z-index:4; float:left; clear:both; width:820px; margin: -10px 10px 10px 135px;font-family:Rockwell, "Palatino Linotype", "Book Antiqua", Palatino, serif;font-size:24px;color:#004195;font-weight:bold;text-decoration:none;}
+.toplink {position: relative; float: left; clear:left; width: 150px; top: -10px; padding-left: 5px;}
+.toplink a {color: #008bcd; text-decoration:none; font-size: 12px; font-weight: bold; background: url(../Images/global/leftarrow.png) no-repeat scroll left center; padding-left: 12px;}
+.social {position: relative; background: url(../Images/article/socialmedia.png) no-repeat top right; float: right; clear:right; width: 347px; height: 32px; top: -10px; margin-bottom: 5px; margin-right: 5px;}
+
+/*floater styles*/
+.sideKite {position:absolute; z-index:5; float:right; clear:right; background:url(../Images/home/Home_Kite.png) no-repeat top left; width: 390px; height: 491px; right: -320px; top: 10px;}
+.sideKite2 {position:absolute; z-index:5; float:right; clear:right; background:url(../Images/home/Home_Kite.png) no-repeat top left; width: 390px; height: 491px; right: -325px; top: 60px;}
+.sideCharms {position:absolute; z-index:6; float:right; clear:right; background:url(../Images/article/sprinkledcharms.png) no-repeat bottom right; width: 150px; height: 122px; right: -70px; bottom: -5px;}
+.sideCharmsP {position:absolute; z-index:6; float:right; clear:right; background:url(../Images/article/sprinkledcharms.png) no-repeat bottom right; width: 150px; height: 122px; right: -100px; bottom: -5px;}
+.charmsHome {position:absolute; z-index:6; float:left; clear:left; background:url(../Images/home/charms.png) no-repeat top left; width: 95px; height: 85px; left: -35px; top: 270px;}
+.charLep {position:absolute; z-index:2; float:left; clear:left; background:url(../Images/home/leprachaun.png) no-repeat bottom left; width: 96px; height: 203px; left: -25px; bottom: -50px;}
+.charRabbit {position:absolute; z-index:2; float:right; clear:right; background:url(../Images/home/trixrabbit.png) no-repeat bottom right; width: 190px; height: 313px; right: -100px; bottom: -80px;}
+
+/*home styles*/
+div.homeMidContent {position:relative;z-index:4;float:left;clear:left;width:100%;margin-top:20px;}
+div.articleMidContent {position:relative; z-index:4; float:left;clear: left;width:100%; margin-top: 0px;}
+div.homeMidLeft {position:relative;z-index:4;float:left;clear:left;width:570px; margin-left: 38px;}
+div.homeMidLeft p {margin-left:12px;}
+.homeMidLeft a {color: #e7038a;text-decoration:none; font-size: 12px; font-weight: bold; background: url(../Images/global/rightarrow.png) no-repeat scroll right center; padding-right: 12px;}
+.homeFootnote {font-size: 10px;}
+
+.homeSide {position:relative;z-index:4;float:right;clear:right;width: 290px; margin-right: 33px; margin-bottom: 20px;}
+.homeSideTop {position:relative;float:left;clear:left;background:url(../Images/bg/bak_side_top.png) no-repeat top left; height: 20px; width: 290px;}
+.homeSideMid {position:relative;float:left;clear:left;background:url(../Images/bg/bak_side_mid.png) repeat-y; width: 290px;}
+.homeSideMidInner {padding-left: 10px; padding-right: 10px;}
+.homeSideMidInner span {font-weight:bold; color:#0088cb;}
+.homeSideMidInner a {color: #e7038a;text-decoration:none; font-size: 12px; font-weight: bold; background: url(../Images/global/rightarrow.png) no-repeat scroll right center; padding-right: 12px;}
+.homeSideBottom {position:relative;float:left;clear:left;background:url(../Images/bg/bak_side_bottom.png) no-repeat top left; height: 12px; width: 290px;}
+
+div.homeMidRight{position:relative;z-index:4;float:right;clear:right;width:290px;margin-bottom:30px;border: 4px solid #ec008c;}
+div.homeMidProducts{position:relative;z-index:4;float:left;clear:left;width:auto;margin-left:-82px; margin-top: 60px;}
+div.homeMidFCAs{position:relative;z-index:4;float:left;clear:left;width:980px; margin-top: -10px;}
+.homeMidFCAs ul {position:relative;z-index:4; list-style:none;}
+.homeMidFCAs li {float:left;clear:none;margin:7px;}
+
+/*article styles*/
+.articleCol {position:relative;z-index:4; float: left;clear:left; width: 596px; margin-left: 45px; margin-bottom: 10px;}
+.articleColTop {position:relative;float:left;clear:left;background:url(../Images/bg/articlebak_top.png) no-repeat top left; height: 20px; width: 596px;}
+.articleColMid {position:relative;float:left;clear:left;background:url(../Images/bg/articlebak_mid.png) repeat-y; width: 596px;}
+.articleColMidInner {padding-left: 10px; padding-right: 10px;}
+.articleColMidInner span {font-weight:bold; color:#0088cb;}
+.articleColMidInner h4 {font-size:20px; font-weight:normal; color:#ec008c; font-family:Rockwell, "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.articleColMidInner img {padding-left: 10px;}
+.articleColMidInner .articleFooter {font-size: 10px;}
+.articleColMidInner a {color: #e7038a;text-decoration:none; font-size: 12px; font-weight: bold; background: url(../Images/global/rightarrow.png) no-repeat scroll right center; padding-right: 12px;}
+.articleColBottom {position:relative; float:left; clear:both; background:url(../Images/bg/articlebak_bottom.png) no-repeat top left; height: 19px; width: 596px;}
+
+/*product styles*/
+.productCol {position:relative;z-index:4; float: left;clear:left; width: 902px; margin-left: 45px; margin-bottom: 10px;}
+.productColTop {position:relative;float:left;clear:left;background:url(../Images/bg/productmain_top.png) no-repeat top left; height: 20px; width: 902px;}
+.productColMid {position:relative;float:left;clear:left;background:url(../Images/bg/productmain_mid.png) repeat-y; width: 902px;}
+.productColMidInner {padding-left: 10px; padding-right: 10px;}
+.productColMidInner span {font-weight:bold; color:#0088cb;}
+.productColMidInner h4 {font-size:20px; font-weight:normal; color:#ec008c; font-family:Rockwell, "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.productColMidInner img {padding-left: 10px;}
+.productColMidInner .articleFooter {font-size: 10px;}
+.productRow1 {}
+.productRow2 {}
+.productColMidInner a {color: #ec008c;text-decoration:none;}
+.productColBottom {position:relative;float:left;clear:left;background:url(../Images/bg/productmain_bottom.png) no-repeat top left; height: 19px; width: 902px;}
+
+/*footer styles*/
+.footerHome, .footerHomeA, .footerHomeP {position:relative;z-index:4;float:left;clear:left;width:980px;margin-left: 50px; margin-top: 80px;}
+.footerHome h3 a, .footerHomeA h3 a, .footerHomeP h3 a {font-size: 14px; color: #fff; font-weight:normal; font-family: Rockwell, "Palatino Linotype", "Book Antiqua", Palatino, serif; margin-top: -10px; text-decoration: none;}
+.footerHome p a, .footerHomeA p a, .footerHomeP p a {font-size: 10px; color: #333; text-decoration: none;}
+.footerCol1, .footerCol2, .footerCol3, .footerCol4, .footerCol5 {float:left; clear:none; margin-right: 7px; width: 180px;}
+.footerBottom {float: left; clear: left; margin-left: 250px; width: 500px; color: #FFF; font-size: 10px; margin-bottom: 5px; margin-top: 10px;}
+.footerBottom a {color: #fff; text-decoration: none;}

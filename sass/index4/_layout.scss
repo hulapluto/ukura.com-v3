@@ -1,0 +1,188 @@
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15rem; //same as padding-main right
+
+    @include breakpoint(tablet) {
+        justify-content: center;
+        padding-right: 0;
+    }
+}
+
+.splash {
+    background: url(../img/backsplash-lego720x405.png) no-repeat top center /cover $c-prim;
+}
+
+.intro {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: $c-tert;
+    @include padding-main;
+
+    @include breakpoint(mobile) {
+        flex-direction: column;
+    }
+
+    h1 { 
+        color: $c-sec;
+        span {
+            color: $c-tert;
+        }
+    }
+
+    .caption { 
+        color: lighten($c-sec, 30%); 
+    }
+
+    .name {
+        flex: 0 0 15rem;
+
+        @include breakpoint(tablet) {
+            flex: 0 0 9rem;
+
+            h1 { 
+                font-size: 4.5rem; 
+            }
+        }
+    }
+    .desc {
+
+        flex: 1;
+        text-align: right;
+
+        @include breakpoint(tablet) {
+            flex: 0 0 35rem;
+        }
+
+        img {
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        @include breakpoint(mobile) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+//about section
+
+.about {
+    color: $c-sec;
+    @include padding-main;
+
+    p {
+        padding: 0 .5rem;
+    }
+
+    p:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+
+    .h2left {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .h2left::after {
+        content: "";
+        background: $c-sec;
+        height: 1rem;
+
+        flex: 1;
+        margin: 1rem;
+    }
+    
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        // padding-left: 1rem;
+
+        &-item {
+            flex: 0 0 33%;
+        }
+    }
+}
+
+//work section
+
+.work {
+    color: $c-prim;
+    background-color: $c-tert;
+    @include padding-main;
+
+    .p-work {
+        padding: 0 .5rem 0 1rem;
+    }
+
+    .h2right {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .h2right::before {
+        content: "";
+        background: $c-prim;
+        height: 1rem;
+
+        flex: 1;
+        margin: 1rem;
+    }
+
+    .h3right {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .h3right::before {
+        content: "";
+        background: $c-tert2;
+        height: .2rem;
+
+        flex: 1;
+        margin: 1rem;
+    }
+
+    h3 {
+        color: $c-tert2;
+        font-size: 2.4rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.contact {
+    color: $c-sec;
+    @include padding-main;
+
+    p {
+        padding: 0 .5rem;
+    }
+
+    .h2left {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .h2left::after {
+        content: "";
+        background: $c-sec;
+        height: 1rem;
+
+        flex: 1;
+        margin: 1rem;
+    }
+}

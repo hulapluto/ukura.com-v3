@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-top: .5rem;
+
+    &-item {
+        margin-top: 0;
+
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+
+        @include breakpoint(mobile) {
+            &:not(:last-child) {
+                margin-right: 3rem;
+            }
+        }
+
+        :link {
+            text-decoration: none;
+            background-color: transparent;
+            border: 1px solid transparent;
+            color: $c-tert;
+
+            &::before {
+                content: '\02686\0000a0 ';
+                margin-top: 5px;
+                color: $c-sec;
+            }
+        }
+
+        :visited {
+            color: $c-tert;
+
+            &::before {
+                content: '\02686\0000a0 ';
+                margin-top: 5px;
+                color: $c-sec;
+            }
+        }
+
+        :hover {
+            color: $c-white;
+        }
+    }
+}

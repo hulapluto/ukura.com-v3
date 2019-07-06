@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+$c-prim: #3e5c76;
+$c-sec: #56e39f;
+$c-tert: #a62639;
+$c-quad: #3b2c35;
+$c-five: #5b6c5d;
+$c-white: #fff;
+$c-black: #000;
+
+.bg2 { background-color: $c-sec; }
+.bg1 { background-color: $c-prim; }
+.bg3 { background-color: $c-quad; }
+
+p, ul { font-size: 1.5rem; }
+
+header {
+    display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 2rem 3rem;
+    background-color: $c-tert;
+
+
+    h1 {
+        color: $c-white;
+    }
+
+    .main-nav {
+        margin-left: auto;
+        // margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            // padding-right: 3rem;
+
+            &:not(:last-child) {
+                padding-right: 3rem;
+            }
+
+            :link {
+                color: $c-sec;
+            }
+        }
+    }
+}
+
+//like a box outline
+.h2box {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.h2box::before, 
+.h2box::after {
+    content: "";
+    height: .6rem;
+    border: solid;
+    border-width: 1px 1px; 
+
+    flex: 1;
+    margin: .5rem;
+}
+//2 horizontal lines
+.h2horz {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.h2horz::before, 
+.h2horz::after {
+    content: "";
+    height: .6rem;
+    border: solid;
+    border-width: 1px 0;
+
+    flex: 1;
+    margin: .5rem;
+}
+//2 solid line
+.h2solid {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.h2solid::before, 
+.h2solid::after {
+    content: "";
+    background: $c-prim;
+    height: 1rem;
+
+    flex: 1;
+    margin: .5rem;
+}
+
+
+.env {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    // box-sizing: content-box; //content box has no effect
+
+    // In my experience, the "cleanest" way that doesn't use :first-child/:last-child and works without any modification on flex-wrap:wrap is to set padding:5px on the container and margin:5px on the children. That will produce a 10px gap between each children and between each children and their parent.
+
+    padding: .5rem; //adding padding half of desired gap
+    
+    &-item {
+        // flex: 0 1 calc(100% / 3); //calc problems ie11
+        // flex: 0 1 30.3333%; 
+        //- content never wraps
+        // flex: 0 1 300px; - content wraps after 300px
+        // flex: 0 1 300px;
+        flex: 0 0 30em;
+        //have to use fixed width and change in media queries
+        
+
+        padding: 2rem;
+        margin: .5rem; //adding margin for rest of desired gap
+
+        background-color: lighten($c-sec, 30%);
+
+        //breaks margins by adding 
+        // &:not(:last-child) {
+        //     margin-right: 2rem;
+        // }
+            //doesn't target
+        // ::after(:nth-child(2)) {
+        //     border: 1px solid red;
+        // }
+    }
+}

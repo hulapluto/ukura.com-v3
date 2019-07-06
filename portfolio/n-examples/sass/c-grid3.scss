@@ -1,0 +1,136 @@
+$c-1st: mediumvioletred;
+$c-2nd: darkseagreen;
+$c-3rd: #014441;
+$c-4th: mediumslateblue;
+$c-5th: darkviolet;
+$c-blk: black;
+$c-wht: white;
+//base
+* { padding: 0; margin: 0; box-sizing: border-box;
+}
+header { padding: 1.2rem 1rem; background-color: darken($c-1st, 5%); color: $c-wht; }
+
+nav {
+    text-align: right;
+    background-color: darken($c-5th, 20%);
+    padding: .6rem 5rem .1rem 0rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: .5rem;
+
+    li { 
+        display: inline-block;
+
+        :link {
+            color: $c-wht;
+            text-decoration: none;
+        }
+
+        :hover {
+            color: $c-4th;
+            text-decoration: underline;
+        }
+
+        &:not(:last-child) {
+            padding-right: 3rem;
+        }
+    }
+}
+
+.cont {
+    display: grid;
+    grid-template-rows: repeat(8, 2rem);
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+
+    //for either rows or columns : repeat(2, minmax(150px, min-content)) -makes the row or column at least 150px high or wide but will also stretch to fill overflowed content.
+    //either rows or columns: grid-template-columns: repeat(auto-fit, minmax(200px, 1 fr)); -auto-fit will take minmax argument and collapse responsively with auto-fit.
+    //grid-auto-rows: 150px;
+
+    & > div {
+        padding: .5rem;
+    }
+}
+
+.area1 {
+    background: linear-gradient($c-1st, $c-2nd);
+    color: $c-wht;
+    grid-column: 3 / 9;
+    grid-row: 1 / 6;
+    z-index: 9;
+}
+.area2 {
+    background-color: $c-2nd;
+    background: linear-gradient($c-2nd, $c-1st);
+    color: $c-wht;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+    z-index: 11;
+}
+.area3 {
+    background: linear-gradient($c-3rd, $c-5th);
+    color: $c-wht;
+    grid-column: 2 / 4;
+    grid-row: 5 / 8;
+    z-index: 10;
+}
+.area4 {
+    background: linear-gradient($c-3rd, $c-5th);
+    color: $c-wht;
+    grid-column: 4 / -1;
+    grid-row: 6 / 9;
+    z-index: 12;
+}
+.area5 {
+    background: linear-gradient($c-5th, $c-3rd);
+    color: $c-wht;
+    grid-column: 1 / -1;
+    grid-row: 8 / 9;
+    z-index: 13;
+}
+.area6 {
+    background: linear-gradient($c-5th, $c-wht);
+    color: $c-wht;
+    grid-column: 1 / 4;
+    grid-row: 1 / -1;
+}
+.area7 {
+    background-color: darken($c-4th, 10%);
+    color: $c-wht;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.area8 {
+    background-color: darken($c-4th, 20%);
+    color: $c-wht;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.area9 {
+    background-color: darken($c-4th, 30%);
+    color: $c-wht;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.area10 {
+    background-color: darken($c-4th, 40%);
+    color: $c-wht;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.area11 {
+    background-color: darken($c-4th, 50%);
+    color: $c-wht;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.area12 {
+    background-color: darken($c-4th, 60%);
+    color: $c-wht;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}

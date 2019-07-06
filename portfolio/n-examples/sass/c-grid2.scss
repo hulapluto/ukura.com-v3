@@ -1,0 +1,112 @@
+$c-1st: indigo;
+$c-2nd: firebrick;
+$c-3rd: mediumseagreen;
+$c-4th: slategrey;
+$c-5th: steelblue;
+$c-blk: black;
+$c-wht: white;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1.2rem 1rem;
+    background-color: darken($c-1st, 5%);
+    color: $c-wht;
+}
+
+nav {
+    text-align: right;
+    background-color: darken($c-5th, 20%);
+    padding: .6rem 5rem .1rem 0rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: .5rem;
+
+    li { 
+        display: inline-block;
+
+        :link {
+            color: $c-wht;
+            text-decoration: none;
+        }
+
+        :hover {
+            color: $c-3rd;
+            text-decoration: underline;
+        }
+
+        &:not(:last-child) {
+            padding-right: 3rem;
+        }
+    }
+}
+
+.cont {
+    display: grid;
+    grid-template-rows: 2rem 2rem 2rem 2rem 2rem 2rem 4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+    & > div {
+        padding: .5rem;
+    }
+}
+
+.area1 {
+    // background-color: $c-1st;
+    background: linear-gradient($c-1st, $c-2nd);
+    color: $c-wht;
+    grid-column: 3 / 5;
+    grid-row: 1 / 7;
+    z-index: 9;
+}
+.area2 {
+    background-color: $c-2nd;
+    background: linear-gradient($c-2nd, $c-1st);
+    color: $c-wht;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+    z-index: 11;
+}
+.area3 {
+    background-color: $c-3rd;
+    color: $c-wht;
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+    z-index: 10;
+}
+.area4 {
+    background-color: darken($c-4th, 10%);
+    color: $c-wht;
+    grid-column: 2 / 5;
+    grid-row: 5 / 8;
+    z-index: 12;
+}
+.area5 {
+    background-color: $c-5th;
+    color: $c-wht;
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
+    z-index: 13;
+}
+.area6 {
+    
+    background: linear-gradient($c-5th, $c-wht);
+    color: $c-wht;
+    grid-column: 1 / 4;
+    grid-row: 1 / -1;
+}
+.area7 {
+    background-color: darken($c-5th, 10%);
+    color: $c-wht;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}

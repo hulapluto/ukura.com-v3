@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Economy Garages - Quality Construction for the Brainerd Lakes Area</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
+<link href="econogarage.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#ffffff" background="images/bak.jpg" topmargin="0" onLoad="MM_preloadImages('images/main_d-o.jpg','images/main_e-o.jpg','images/main_f-o.jpg','images/main_g-o.jpg','images/main_h-o.jpg','images/main_i-o.jpg');">
+<table width="720" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><table border="0" cellpadding="0" cellspacing="0" width="720">
+	  <tr>
+	   <td><table border="0" cellpadding="0" cellspacing="0" width="550">
+		  <tr>
+		   <td><img name="main_a" src="images/main_a.jpg" width="550" height="84" border="0" alt=""></td>
+		  </tr>
+		  <tr>
+		   <td><table border="0" cellpadding="0" cellspacing="0" width="550">
+			  <tr>
+			   <td><img name="main_c" src="images/main_c.jpg" width="37" height="19" border="0" alt=""></td>
+			   <td><a href="index.shtml" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('main_d','','images/main_d-o.jpg',1);"><img name="main_d" src="images/main_d.jpg" width="65" height="19" border="0" alt=""></a></td>
+			   <td><a href="#" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('main_e','','images/main_e-o.jpg',1);"><img name="main_e" src="images/main_e.jpg" width="101" height="19" border="0" alt=""></a></td>
+			   <td><a href="#" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('main_f','','images/main_f-o.jpg',1);"><img name="main_f" src="images/main_f.jpg" width="74" height="19" border="0" alt=""></a></td>
+			   <td><a href="#" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('main_g','','images/main_g-o.jpg',1);"><img name="main_g" src="images/main_g.jpg" width="119" height="19" border="0" alt=""></a></td>
+			   <td><a href="#" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('main_h','','images/main_h-o.jpg',1);"><img name="main_h" src="images/main_h.jpg" width="50" height="19" border="0" alt=""></a></td>
+			   <td><a href="#" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('main_i','','images/main_i-o.jpg',1);"><img name="main_i" src="images/main_i.jpg" width="104" height="19" border="0" alt=""></a></td>
+			  </tr>
+			</table></td>
+		  </tr>
+		</table></td>
+	   <td><img name="main_b" src="images/main_b.jpg" width="170" height="103" border="0" alt=""></td>
+	  </tr>
+	</table></td>
+  </tr>
+  <tr>
+   <td><img name="main_j" src="images/main_j.jpg" width="720" height="35" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td background="images/main_k.jpg"><table width="700" border="0" align="center" cellpadding="2" cellspacing="0">
+     <tr>
+       <td width="516" valign="top"><p><span class="headline">Economy Garages</span><span class="normbody"> is
+             a 28 year success story and with over 8,000 of your northland neighbors
+             as customers were a proven partner for your next garage. </span></p>
+           <p><span class="normbody">Our success is based in one stop shopping.
+               We do it all: Permits, Design, Dirt &amp; Site Preparation, Concrete &amp; Garage
+               construction. No headaches or wasted time. Our crews are seasoned
+               professionals building you a quality garage, always leading the
+               way, so you don't have to. </span></p>
+           <p align="center"><span class="normbody"><img src="images/office.jpg" width="300" height="134"></span></p>
+           <p><span class="normbody">No, Economy Garages are not your typical
+               contractor. With a fleet of crews, state of the art production
+               facility, 28 years of experience and over 8,000 customers. Economy
+               Garages is the Lakes Area's largest &quot;In-Demand&quot; Garage
+               builder.</span></p>
+           <p align="center"><span class="normbody">Makes your next garage: Built
+               Right &amp; Priced Right</span></p>
+           <p align="center"><img src="images/fleet.jpg" width="350" height="148"></p>
+           <p><br>
+           </p>
+       </td>
+       <td width="176" valign="top"><table width="160" border="0" align="right" cellpadding="0" cellspacing="0">
+           <!-- fwtable fwsrc="specials.png" fwbase="specials.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="1" -->
+           <tr>
+             <td><a href="#"><img name="specials_a" src="images/specials_a.gif" width="160" height="18" border="0" alt=""></a></td>
+           </tr>
+           <tr>
+             <td background="images/specials_b.gif"><table width="144" border="0" align="center" cellpadding="1" cellspacing="0">
+                 <tr>
+                   <td><p class="specials"><!--#include virtual="dispMiniSpecials.cgi" -->
+                     </p>
+                     <p class="specials"><a href="specials.shtml">Click here for more info</a></p></td>
+                 </tr>
+               </table>
+             </td>
+           </tr>
+           <tr>
+             <td><img name="specials_c" src="images/specials_c.gif" width="160" height="8" border="0" alt=""></td>
+           </tr>
+         </table>
+           <p align="right">&nbsp;</p>
+           <p align="right">&nbsp;</p>
+           <p align="right">&nbsp;</p>
+           <p align="right">&nbsp;</p>
+           <p align="right"><a href="planning_guide.pdf"><img src="images/planningguide.jpg" width="160" height="40" border="0"></a><br>
+             <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank"><img src="images/get_adobe_reader.gif" width="88" height="31" border="0"></a></p>
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" valign="top"><div align="center" class="smaller">Economy Garages - Hwy
+           210 East - P.O. Box 487<br>
+           Deerwood, MN 56444 - 800-837-5506
+       </div></td>
+       </tr>
+   </table></td>
+  </tr>
+  <tr>
+   <td><img name="main_l" src="images/main_l.jpg" width="720" height="37" border="0" alt=""></td>
+  </tr>
+</table>
+<p align="center" class="fineprint"><a href="#" target="_blank">ibreed.net</a> :
+the information generation<br>
+</p>
+</body>
+</html>

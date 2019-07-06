@@ -1,0 +1,125 @@
+html	{
+	min-height: 100%;
+	margin-bottom: 1px;
+	}	
+	
+* {	
+	margin:0;
+	padding:0;
+}
+	
+.clear {clear:both; }
+
+body {
+	text-align:center; /* centering in ie only */
+	margin: 0px;
+	padding: 0px;
+	background-color: #b51f1f;
+	font-family: arial, helvetica, sans-serif;
+	font-size: .8em;
+	line-height: normal;
+	}
+	
+.container	{
+	width: 940px;
+	margin: 0 auto;
+	text-align: left;
+	clear: both;
+	position: relative;
+	}
+
+.container .header	{
+	float: left;
+	position: relative;
+	width: 940px;
+	height: 100px;
+	/*padding: 0 10px 90px 10px;*/
+	background-image: url("images/header.jpg");
+	background-repeat: repeat-y;
+	clear: both;
+	}
+.container .navbar	{
+	float: left;
+	position: relative;
+	width: 940px;
+	height: 42px;
+	clear: both;
+	}
+	
+#body_home #nav_nav1 a,
+	#body_maps #nav_nav2 a,#body_jour #nav_nav3 a,
+	#body_hist #nav_nav4 a,#body_ref #nav_nav5 a
+	#body_cont #nav_nav6 a {
+	background: #8E1D17;
+	color:#000000;
+	font-weight: bold;
+}
+#nav {
+	font-size: 85%;
+	background-color: #5C1010;
+	margin: 10px 0px 0px 34px;
+	padding: 0px;
+	list-style-type: none;
+	width: 875px;
+	float: left;
+}
+#nav li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+#nav a {
+	float:left;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 145px;
+	line-height: 2.0em;
+	text-align:center;
+	border-right: 1px solid #ffffff;
+}
+#nav #nav_nav6 a {
+	border: none;
+}
+#nav a:hover {
+	background: #8E1D17;
+}
+	
+.container .top	{
+	float: left;
+	position: relative;
+	width: 930px;
+	height: 15px;
+	background-image: url("images/container_top.jpg");
+	background-repeat: no-repeat;
+	clear: both;
+	}
+	
+.container .main	{
+	float: left;
+	z-index: 1;
+	width: 900px;
+	padding: 0 20px;
+	background-image: url("images/container_mid.jpg");
+	background-repeat: repeat-y;
+	clear: both;
+	}
+
+.container .main_inner {
+	width: 860px;
+	text-align: left;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+.container .bottom	{
+	float: left;
+	position: relative;
+	width: 930px;
+	height: 14px;
+	background-image: url("images/container_bottom.jpg");
+	background-repeat: no-repeat;
+	clear: both;
+	}

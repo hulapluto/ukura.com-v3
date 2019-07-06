@@ -1,0 +1,66 @@
+.maintext {
+	FONT-SIZE: 12px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.mainheader1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #993333; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#menunav A {
+	PADDING-RIGHT: 3px; DISPLAY: inline; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 2px; FONT: bold 10px arial, arial, sans-serif; COLOR: #006699; PADDING-TOP: 2px
+}
+#menunav A:link {
+	PADDING-RIGHT: 3px; DISPLAY: inline; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 2px; FONT: bold 10px arial, arial, sans-serif; COLOR: #006699; PADDING-TOP: 2px
+}
+#menunav A:hover {
+	BACKGROUND: #ffffff; COLOR: #006600; TEXT-DECORATION: none
+}
+#menunav A.active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000
+}
+#menunav A.active:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000
+}
+#menunav A.active:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000
+}
+#nav A {
+	DISPLAY: inline; FONT: 12px arial, arial, sans-serif
+}
+#nav A:link {
+	DISPLAY: inline; FONT: 12px arial, arial, sans-serif
+}
+#nav A:hover {
+	COLOR: #cc9900; TEXT-DECORATION: none
+}
+#menunav2 A:link {
+	DISPLAY: inline; FONT-SIZE: 10px; MARGIN: 0px; COLOR: #009900; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+#menunav2 A:hover {
+	DISPLAY: inline; FONT-SIZE: 10px; MARGIN: 0px; COLOR: #cc9900; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+UL {
+	FONT-SIZE: 12px; LIST-STYLE-TYPE: circle
+}
+.maintextbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.maintextitalic {
+	FONT-SIZE: 12px; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.finepoint {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.finepoint2 {
+	FONT-SIZE: 9px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.headline1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333366; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.finepointbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #009900; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #cc9900; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

@@ -1,0 +1,89 @@
+$c1: mediumturquoise;
+$c2: mediumslateblue;
+$c3: midnightblue;
+$c-0: black;
+
+// img ../../../img/pf-joinmyvillage-450x250.jpg
+// img ../../../img/pf-gm-growupstrong-450x250.jpg
+// img ../../../img/pf-muirglen-450x250.jpg
+// img ../../../img/pf-uslink-450x250.jpg
+// img ../../../img/pf-wkfs-auto-lending-450x250.jpg
+// img ../../../img/pf-econo-garages-450x250.jpg
+
+.cards2 {
+    display: flex;
+    justify-content: center; //centers content
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+
+    &-item {
+        // background-color: aquamarine;
+        // background-image: url(../../../img/pf-joinmyvillage-450x250.jpg);
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background: linear-gradient( rgba($c1, .5) 40%, rgba($c2, .5) );
+        border-radius: 10px;
+        border: 1px solid rgba($c3, .3);
+        // box-shadow: .1rem 1rem 1rem 4rem rgba($c-0, .15);
+        box-shadow: 0px 2px 4px 1px rgba($c-0, .15);
+        flex: 1 1 100%; //seems to need this to not constrain to card text width
+
+        @media screen and (min-width: 37.5rem) {
+            max-width: 100%;
+        }
+        @media screen and (min-width: 50rem) {
+            max-width: 40%;
+        }
+        @media screen and (min-width: 60rem) {
+            max-width: 27%;
+        }
+
+        .card-img {
+            height: 14rem;
+            margin: 0;
+            margin-top: -1rem;
+            margin-left: -1rem;
+            margin-right: -1rem;
+
+            &-1, &-2, &-3, &-4, &-5, &-6 {
+                background-size: cover;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;   
+            }
+
+            &-1 {
+                background: url(../../../img/pf-joinmyvillage-450x250.jpg) no-repeat;   
+            }
+            &-2 {
+                background: url(../../../img/pf-gm-growupstrong-450x250.jpg) no-repeat;   
+            }
+            &-3 {
+                background: url(../../../img/pf-muirglen-450x250.jpg) no-repeat;   
+            }
+            &-4 {
+                background: url(../../../img/pf-uslink-450x250.jpg) no-repeat;   
+            }
+            &-5 {
+                background: url(../../../img/pf-wkfs-auto-lending-450x250.jpg) no-repeat;   
+            }
+            &-6 {
+                background: url(../../../img/pf-econo-garages-450x250.jpg) no-repeat;   
+            }
+
+        } 
+
+        .card {
+            h3 {
+                color: $c3;
+            }
+        }
+        
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}

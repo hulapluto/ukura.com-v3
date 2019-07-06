@@ -1,0 +1,62 @@
+.cards2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards2-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 40rem) {
+  .cards2-item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 56rem) {
+  .cards2-item {
+    width: 32%;
+  }
+}
+
+.cards2-item .card {
+  background-color: darkmagenta;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.cards2-item .card:hover .card-img {
+  -webkit-filter: contrast(100%);
+          filter: contrast(100%);
+}
+
+.cards2-item .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+/*# sourceMappingURL=cards2.css.map */

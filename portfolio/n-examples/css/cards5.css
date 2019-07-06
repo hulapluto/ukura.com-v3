@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 2rem auto;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: -1rem;
+}
+
+.cards-item {
+  margin: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(72, 209, 204, 0.8)), to(rgba(123, 104, 238, 0.8)));
+  background: linear-gradient(rgba(72, 209, 204, 0.8) 40%, rgba(123, 104, 238, 0.8));
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 320px;
+          flex: 0 0 320px;
+}
+
+.cards-item .card-img-1 {
+  background: url(../../../img/pf-joinmyvillage-450x250.jpg) top center/contain no-repeat;
+}
+
+.cards-item .card-img-2 {
+  background: url(../../../img/pf-gm-growupstrong-450x250.jpg) top center/contain no-repeat;
+}
+
+.cards-item .card-img-3 {
+  background: url(../../../img/pf-muirglen-450x250.jpg) top center/contain no-repeat;
+}
+
+.cards-item .card-img-4 {
+  background: url(../../../img/pf-uslink-450x250.jpg) top center/contain no-repeat;
+}
+
+.cards-item .card-img-5 {
+  background: url(../../../img/pf-wkfs-auto-lending-450x250.jpg) top center/contain no-repeat;
+}
+
+.cards-item .card-img-6 {
+  background: url(../../../img/pf-econo-garages-450x250.jpg) top center/contain no-repeat;
+}
+
+.cards-item .card {
+  padding: 12rem 1rem 1rem 1rem;
+}
+
+.cards-item .card_content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: .5rem;
+}
+
+.cards-item .card h3 {
+  color: midnightblue;
+}
+
+.cards-item .card p {
+  padding: .5rem 0;
+}
+/*# sourceMappingURL=cards5.css.map */

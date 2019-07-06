@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+$c-prim: #0b5351;
+$c-sec: #e83151;
+$c-tert: #d4e4bc;
+$c-tert2: #eafcd0;
+$c-quad: #070607;
+$c-five: #7f9183;
+$c-white: #fff;
+$c-black: #000;
+
+@mixin flexCenterSB {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin padding-main {
+    padding: 8rem 15rem 10rem 15rem;
+
+    @include breakpoint(mobile) {
+        padding: 3rem 2rem 5rem 2rem;
+    }
+
+    @include breakpoint(tablet) {
+        padding: 3rem 2rem 5rem 2rem;
+    }
+}
+
+
+@mixin breakpoint($width) {
+    @if $width == mobile {
+        @media (max-width: 37rem) { @content ; }
+    }
+    @if $width == tablet {
+        @media (max-width: 60rem) { @content ; }
+    }
+    @if $width == laptop {
+        @media (max-width: 95rem) { @content ; }
+    }
+}
+
+h1 { 
+    font-size: 6rem; 
+
+    span {
+        color: $c-quad;
+        font-size: 80%;
+    }
+}
+h2 { 
+    font-size: 4.5rem; 
+}
+h3 { 
+    font-size: 3.5rem; 
+}
+h4 { 
+    font-size: 2.5rem; 
+}
+h5 { 
+    font-size: 1.7rem; 
+}
+p, ul { 
+    font-size: 2rem; 
+
+    & > * + * {
+        margin-top: 2.5rem; 
+    }
+
+    p:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+}
+
+h2, h3 {
+    margin-bottom: 2rem;
+}
+
+.caption { 
+    font-size: 1.5rem; font-weight: 300; 
+}
+.btn { 
+    font-size: 1.5rem; font-weight: 400; 
+}
+
+.mb3 { margin-bottom: 6rem;}
+
+

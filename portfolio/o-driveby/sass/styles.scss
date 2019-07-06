@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    font-family: 'Noto Sans HK', sans-serif;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+
+.topHead {
+    padding: 1rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        color: #666;
+    }
+    h2 {
+        color: goldenrod;
+    }
+}
+
+nav {
+    padding: .5rem; 
+    background-color: lighten(grey, 49%);
+    display: flex;
+    justify-content: space-between;
+
+    color: cadetblue;
+    font-size: .9rem;
+
+    :link {
+        text-decoration: none;
+        color: palevioletred;
+
+        &:hover {
+            color: darken(palevioletred, 20%);
+        }
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+
+        
+    }
+}
+
+main {
+    margin: 2rem auto;
+}
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+    item {
+        flex: 1 1 auto;
+        margin: 1rem;
+    }
+}
+
+

@@ -1,0 +1,96 @@
+$c1: mediumturquoise;
+$c2: mediumslateblue;
+$c3: midnightblue;
+$c-0: black;
+$c-255: white;
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// img ../../../img/pf-joinmyvillage-450x250.jpg
+// img ../../../img/pf-gm-growupstrong-450x250.jpg
+// img ../../../img/pf-muirglen-450x250.jpg
+// img ../../../img/pf-uslink-450x250.jpg
+// img ../../../img/pf-wkfs-auto-lending-450x250.jpg
+// img ../../../img/pf-econo-garages-450x250.jpg
+.container {
+    margin: 2rem auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center; //centers content
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -1rem; //need to fake gutters
+    
+    &-item {
+        margin: 1rem; //need to fake gutters
+        background: linear-gradient( rgba($c1, .8) 40%, rgba($c2, .8) );
+        flex: 0 0 320px; //no grow or shrink only contained width to simulate grid
+
+        // @media screen and (min-width: 37.5rem) {
+        //     max-width: 100%;
+        // }
+        // @media screen and (min-width: 50rem) {
+        //     max-width: 40%;
+        // }
+        // @media screen and (min-width: 60rem) {
+        //     max-width: 27%;
+        // }
+        h3 {
+            color: $c-255;
+            background-color: $c2;
+            // z-index: 10;
+            text-align: right;
+            // float: right;
+            display: inline-block;
+            margin: 9rem 0 0 1rem;
+            padding: .1rem 3rem;
+
+            &::after { clear: right; }
+        }
+
+        .card-img {
+
+            &-1 {
+                background: url(../../../img/pf-jmv-450x250.png) top center / contain no-repeat;  
+            }
+            &-2 {
+                background: url(../../../img/pf-gus-450x250.png) top center / contain no-repeat;   
+            }
+            &-3 {
+                background: url(../../../img/pf-gmmg-450x250.png) top center / contain no-repeat;   
+            }
+            &-4 {
+                background: url(../../../img/pf-uslink-450x250.png) top center / contain no-repeat;  
+            }
+            &-5 {
+                background: url(../../../img/pf-wkfsAL-450x250.png) top center / contain no-repeat;  
+            }
+            &-6 {
+                background: url(../../../img/pf-econog-450x250.png) top center / contain no-repeat;  
+            }
+        } 
+
+        .card {
+            padding: .5rem 1rem 1rem 1rem; 
+
+            &_content {
+                background: rgba($c-255, .8);
+                background: linear-gradient( rgba($c-255, .8) 40%, rgba($c1, .8) );
+                border-radius: 5px;
+                padding: 1rem;
+            }
+
+            
+            p {
+                padding: .5rem 0;
+            }
+        }
+        
+    }
+}

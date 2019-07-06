@@ -1,0 +1,69 @@
+.normbody {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-variant: normal;
+}
+.headline {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #006600;
+
+}
+.fineprint {
+	font-size: 9px;
+	font-weight: lighter;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+
+}
+.menu {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.specials {
+	font-size: 11px;
+	font-weight: 100;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.specialsbold {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.normbodybold {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.normbodyitalic {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+	color: #000000;
+}
+.normbodybold2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+}
+.dareheadline {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #006600;
+}
+.smaller {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+
+}
+

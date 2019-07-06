@@ -1,0 +1,8 @@
+#authorWrap { margin: 0px; padding: 0px; width: 500px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+.authorHead { position: relative; height: 50px; }
+.authorHead h1 { width: 300px; display: inline; font-size: 24px; }
+.authorText { width: 330px; float: right; font-size: 13px; display: inline-block;}
+.firstparag { display: inline; }
+.authorText p {}
+.closebutton { float: right; padding-top: 5px; }
+.clear { clear: both; }

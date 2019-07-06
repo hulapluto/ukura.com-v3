@@ -1,0 +1,117 @@
+/* poor mans reset */
+html, body {padding: 0; margin: 0;}
+html {font-size: 1em;}
+body {font-size: 100%;}
+a img, :link img, :visited img {border: 0;}
+.clear { clear: both; }
+
+/* layout */
+body { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; background-image: url(../img/jmvhomebak.jpg); background-repeat: no-repeat; background-position: center top; width: 100%; height: 100%; position: relative;}
+.blogbakwrap { background-image: url(../img/jmvblogbak.jpg); background-repeat: no-repeat; background-position: center top; background-size: cover; width: 100%; height: 100%; position: relative; }
+#jmvwrapper { width: 1000px; margin: 0 auto; position: relative;}
+
+#worksbar { background-color: #000; color: #FFF; height: 70px; font-size: 11px;}
+.wkbar { width: 1000px; margin: 0 auto; position: relative; }
+.wkcol1 { width: 184px; float: left; padding-top: 15px; }
+.wkcol2 { width: 34px; float: left; padding-left: 30px; padding-top: 15px;}
+.wkcol3 { width: 180px; float: left; padding-left: 20px; padding-top: 10px;}
+.wkcol4 { width: 34px; float: left; padding-left: 10px; padding-top: 15px;}
+.wkcol5 { width: 180px; float: left; padding-left: 20px; padding-top: 10px;}
+.wkcol6 { width: 34px; float: left; padding-left: 10px; padding-top: 15px;}
+.wkcol7 { width: 180px; float: left; padding-left: 20px; padding-top: 10px;}
+.wkcol8 { width: 27px; float: left; padding-left: 20px; padding-top: 15px;}
+
+/*header*/
+#jmvheader { position: relative; height: 80px; }
+.newssignup { position: absolute; top: 0px; right: 0px; margin: 0px; }
+.signup { font-size: 12px; border: 1px solid #CCC; padding: 3px; margin: 1px 0px 0px 0px; float: left; }
+.jmvsubmit { margin-left: 0; margin-top: 0px; }
+.jmvsocial { position: absolute; top: 35px; right: 0px; margin: 0px; }
+#nav { margin-bottom: 25px; }
+
+
+/*homepage content*/
+#jmvrow1 { width: 1000px; height: 430px; position: relative;}
+.jmvmain { position: relative; width: 1000px; height: 430px; top: 0px; left: 0px; background: url(../img/centerphoto1.png) no-repeat; overflow: hidden; }
+.hych { position: absolute; width: 332px; height: 293px; top: 0px; right: 1px; background-color: #342d26; }
+.hych_in { padding: 30px 10px 0px 25px; color: #FFF; font-size: 12px; }
+.hych_row2 a { color: #ef7105; font-size: 13px; font-weight: bold; text-decoration: none; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px;}
+.hych_row {	line-height: 1.5em; padding-top: 10px; }
+.hych_row2 { line-height: 1.5em; padding-top: 10px; }
+.donate { position: absolute; width: 363px; height: 137px; bottom: 1px; right: 1px; background-color: #221e19; z-index: 5; }
+.donate_row { line-height: 1.4em; padding-top: 10px; }
+.donate_in { color: #FFF; font-size: 13px; font-weight: bold; text-align: right; padding-top: 25px; padding-right: 22px; }
+.donate_in a { color: #ef7105; font-size: 12px; font-weight: bold; text-decoration: none; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px;}
+#jmvrow2 { width: 1000px; height: 199px; position: relative; }
+.progress { position: relative; height: 199px; width: 334px; float: left; }
+.readblog { position: relative; height: 199px; width: 309px; float: right; }
+.blogcal { position: relative; height: 199px; width: 332px; float: right;}
+#jmvrow3 { width: 1000px; height: 278px; position: relative; }
+.fbsocial { position: relative; height: 278px; width: 1000px; }
+
+/*secondary page layouts*/
+#jmv2row { width: 1000px; position: relative; margin-top: 10px; margin-bottom: 25px; }
+.leftnavOLD { width: 168px; float: left; background-color: #342d26; margin-top: 20px; }
+/*.leftnav { position: fixed; width: 168px; background-color: #342d26; top: 236px; }*/
+#leftnav { position: absolute; width: 168px; background-color: #342d26; top: 25px; left: 0px; z-index: 100; margin-top: 25px;}
+#leftnav_in { padding: 10px 15px 0px 15px; }
+#leftnav h1 { font-size: 16px; font-weight: bold; color: #FFF; display: inline; }
+#leftnav a { font-size: 12px; font-weight: bold; color: #ef7105; display: inline; text-decoration: none; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px; }
+#leftnav .Current a { font-size: 12px; font-weight: bold; color: #FFF; display: inline; text-decoration: none; background: url(../img/arrowlinkWH.png) no-repeat scroll right center; padding-right: 15px; }
+#leftnav .leftlink { border-bottom: 1px solid #2f2922; padding-bottom: 5px; margin-top: 8px; }
+.jmvContent1 { width: 832px; position: relative; float: right; background-color:#FFF; }
+.jmvContent1_in { padding: 25px 25px 5px 25px; }
+.jmvContent1_in hr { color: #e5e5e5; height: 1px; background-color: #e5e5e5; }
+.jmvContentBottom1 { background:url(../img/jmvContentBottom1.png) no-repeat; width: 832px; height: 23px; float: right; }
+/*about*/
+.flashplayer { width: 461px; height: 262px; float: left; }
+.ourmission { width: 290px; float: right; margin-bottom: 25px; }
+.wherewework { width: 290px; float: right; margin-bottom: 25px; }
+.wherewework a { color: #ef7105; text-decoration: none; }
+.whygirls { width: 780px; margin-top: 25px; margin-bottom: 25px; clear: both; font-size: 13px; }
+#jmv2row hr { color: #CCC; margin-bottom: 25px; }
+.sponsors { width: 230px; float: left; margin-right: 20px; }
+.partners { width: 230px; float: left; margin-right: 25px; }
+.faqs { width: 260px; float: right; }
+.sponsors, .partners, .faqs { font-size: 12px; }
+.sponsors a, .partners a, .faqs a { color: #ef7105; text-decoration: none; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px; }
+/*blog*/
+.blCol { width: 482px; float: left; }
+.blHeadline { font-size: 22px; font-weight: bold; margin-bottom: 0px; margin-top: 20px; }
+.blSubhead { font-size: 10px; text-transform:uppercase; margin-bottom: 10px; }
+.blSubhead a { color: #ef7105; text-decoration: none; }
+.blText { font-size: 12px; }
+.blText a { color: #ef7105; text-decoration: none; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px; }
+.blSocial {}
+.blShare { font-weight: bold; }
+.blTagged { font-size: 12px; }
+.blTagged a { color: #ef7105; text-decoration: none; }
+
+.blRight { width: 234px; float: right; }
+.blRightTop {position:relative; background:url(../img/Blogbox_top.png) no-repeat top left; height: 6px; width: 234px;}
+.blRightMid {position:relative; background:url(../img/Blogbox_mid.png) repeat-y; width: 234px; display: inline-block; }
+.blRightMid h1, .blRightMid a {padding-left: 10px; padding-right: 10px;}
+.blRightMid h1 { font-size: 18px; margin-top: 10px; margin-bottom: -5px; }
+.blRightMid a { font-size: 12px; color: #ef7105; text-decoration: none; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px; }
+.blRightMid hr { color:#eaeae9; background-color: #eaeae9; height: 1px; border: none; margin: 0; padding: 0; }
+.blRight_in span {font-weight:bold; color:#0088cb;}
+.blRight_in a {color: #ef7105; text-decoration:none; font-size: 12px; font-weight: bold; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px;}
+.blRightBottom {position:relative; background:url(../img/Blogbox_bottom.png) no-repeat top left; height: 5px; width: 234px;}
+/*how it works*/
+.hiwrow { position:relative; margin-top: 25px; margin-bottom: 0px; }
+.hiwrow h3 { font-size: 16px; }
+.hiwrow p { font-size: 13px; }
+.hiwrow a { color: #ef7105; text-decoration: none; background: url(../img/arrowlink.png) no-repeat scroll right center; padding-right: 15px; }
+.hiwCol1 { width: 304px; float: left; }
+.hiwCol2 { width: 105px; float: left; padding-left: 35px; padding-top: 50px; }
+.hiwCol3 { width: 304px; float: right; }
+
+/* footer */
+#jmvfooter { background-color: #000; color: #959391; position: relative; min-height: 300px; height: auto !important; height: 300px}
+.footerWrap {width: 1000px; margin: 0 auto; position: relative;}
+.footerNav { font-size: 11px; padding-top: 12px; }
+.footerNav a { color: #FFF; text-decoration: none; }
+.footerText {  font-size: 11px; width: 410px; }
+.footerh1 { color: #ef7105; font-weight: bold; }
+.copyright { font-size: 10px; }
+.copyright a { color: #ef7105; text-decoration: none; }

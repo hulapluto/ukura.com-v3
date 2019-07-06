@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+// grid
+$g-width: 100rem;
+$gutter-v: 5rem;
+$gutter-h: 3rem;
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+.env {
+    max-width: $g-width;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        margin-bottom: $gutter-v;
+    }
+
+    @include clearfix;
+    
+    &-item {
+        float: left;
+        
+        &:not(:last-child) {
+            margin-right: $gutter-h;
+        }
+    }
+
+    .col-6 {
+        width: calc((100% - #{$gutter-h}) / 2); 
+    }
+    .col-4 {
+        width: calc(2 * ((100% - 2 * #{$gutter-h}) / 3) + #{$gutter-h});
+    }
+    .col-3 {
+        width: calc(2 * ((100% - 3 * #{$gutter-h}) / 4) + #{$gutter-h});
+    }
+
+}
+
+$c-prim: #3e5c76;
+$c-sec: #56e39f;
+$c-tert: #a62639;
+$c-quad: #3b2c35;
+$c-five: #5b6c5d;
+$c-white: #fff;
+$c-black: #000;
+
+.bg2 { background-color: $c-sec; }
+.bg1 { background-color: $c-prim; }
+.bg3 { background-color: $c-quad; }
+
+p, ul { font-size: 1.5rem; }
+ul { padding: 2rem; }
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: $c-tert;
+
+
+    h1 {
+        color: $c-white;
+    }
+
+    .main-nav {
+        margin-left: auto;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                padding-right: 3rem;
+            }
+
+            :link {
+                color: $c-sec;
+            }
+        }
+    }
+}
+main {
+    margin: 0 5rem;
+}
+

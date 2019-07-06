@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+/*:root { --grass: #add273; }*/
+html { font-family: sans-serif;  }
+body { margin: 0; padding: 0; box-sizing: border-box; }
+.cloudbak {
+  background:
+    url("../img/cloudtree2.jpg") bottom center / cover no-repeat, url("../img/cloudtree2.1.jpg") bottom left repeat-x;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+	padding: 0;
+}
+img { max-width: 100%; display: block; }
+header {
+  width: 60em;
+  margin: 0 auto;
+  /*background-color: rgba(0,0,0,.2);*/
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+     flex-direction: row;
+     align-items: top;
+     justify-content: center;
+}
+nav ul {
+  font-size: 1.5rem;
+  list-style: none;
+  line-height: 1.5rem;
+  font-family: 'Slabo 27px', serif; color: #ec008c;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+nav ul li a {
+  color: #ec008c;
+  text-decoration: none; }
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, .5);
+}
+header input {
+  height: 20px;
+  margin-bottom: 2rem;
+}
+
+section.main {
+  width: 60em;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+section.main h1, h2, h3 {
+    font-family: 'Slabo 27px', serif; color: #ec008c;
+}
+section.main .contentm {
+  float: left;
+  width: 40em;
+  margin-left: 1rem;
+  margin-right: 2px;
+}
+section.main::before {
+  background: url("../img/charms.png") left bottom no-repeat;
+  position: absolute;
+  content: "";
+  height: 85px;
+  width: 95px;
+  bottom: 0;
+  left: 0;
+  margin-left: -5rem;
+}
+section.main::after {
+  background: url("../img/Home_Kite.png") right top no-repeat;
+  position: absolute;
+  content: "";
+  height: 491px;
+  width: 390px;
+  top: 0;
+  right: 0;
+  margin-right: -10rem;
+  z-index: -10;
+}
+@media (max-width: 55rem) {
+  section.main::before { display: none; overflow: hidden; }
+  section.main::after { display: none; overflow: hidden; }
+  section.main { width: 100%; }
+  section.main .contentm { width: 100%; float: none; }
+}
+section.main h2 {
+  margin-top: 0;
+}
+section.main .rtbox {
+  margin-top: 5rem;
+  float: right;
+  width: 16em;
+	background-color: rgba(255, 255, 255, .7);
+	border-top: 4px solid #ec008c;
+  padding: 1rem;
+}
+section.main .rtbox p {
+  font-size: .9rem;
+}
+section.main .rtbox p span {
+  color: #0088cb;
+  font-weight: bold;
+}
+
+.clearfix { clear: both; }
+
+.products {
+
+  margin: 1em auto;
+  /*background-color: rgba(0,0,0,.2);*/
+  display: flex;
+  justify-content: center;
+}
+section.cards {
+  width: 58em;
+  margin: 0 auto;
+  position: relative;
+}
+section.cards::before {
+  background: url("../img/leprachaun.png") left top no-repeat;
+  position: absolute;
+  content: "";
+  height: 203px;
+  width: 96px;
+  top: 0;
+  left: 0;
+  margin-left: -5rem;
+  z-index: 1;
+}
+section.cards::after {
+  background: url("../img/trixrabbit.png") right top no-repeat;
+  position: absolute;
+  content: "";
+  height: 313px;
+  width: 190px;
+  top: 0;
+  right: 0;
+  margin-right: -10rem;
+
+}
+
+.cards {
+  display: flex;
+flex-wrap: wrap;
+}
+.card-item {
+  flex: 1 0 225px;
+}
+footer { width: 70em;  margin: 0 auto; height: auto;}
+footer h3, h3 a { font-size: .9rem; color: #666; text-decoration: none; }
+
+footer ul { list-style-type: none; padding: 0; }
+ul a { color: #666; text-decoration: none; }
+footer ul li, li a { color: #666; font-size: .7rem;  }
+.grass {
+  background-color: #add273;
+  width: 100vw;
+  overflow: auto;
+}
+/*grid system*/
+.row {
+	display: block;
+	width: 70em;
+	margin: 0 auto;
+	clear: both;
+	/*margin-right: -15px;
+  margin-left: -15px;*/
+}
+
+[class^=col-] {
+    float: left;
+    display: block;
+ }
+
+ .col-1 { width: 8.3333%; }
+ .col-2 { width: 16.6667%; }

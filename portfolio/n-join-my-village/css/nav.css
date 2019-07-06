@@ -1,0 +1,22 @@
+/*nav*/
+#nav {width: 1000px;height: 39px;position: relative;background: url("img/navbar.jpg") no-repeat;margin: 0px;padding: 0px;clear: both;display: block;top: 0px;left: 0px;}
+#nav li {float: left;list-style-type: none;}
+#nav li a {position: absolute;top: 0;margin: 0;padding: 0;display: block; height: 39px; background: url("img/navbar.jpg") no-repeat;text-indent: -9999px;overflow: hidden;font-size: 1%;}
+li#nv_home a {left: 0;width: 168px;background-position: 0 0;}
+li#nv_hiw a {left: 168px;width: 166px;background-position: -168px 0;}
+li#nv_op a {left: 334px;width: 167px;background-position: -334px 0;}
+li#nv_prog a {left: 501px;width: 167px;background-position: -501px 0;}
+li#nv_blog a {left: 668px;width: 167px;background-position: -668px 0;}
+li#nv_ajmv a {left: 835px;width: 165px;background-position: -835px 0;}
+li#nv_home a:hover {background-position: 0 -39px;}
+li#nv_hiw a:hover {background-position: -168px -39px;}
+li#nv_op a:hover {background-position: -334px -39px;}
+li#nv_prog a:hover {background-position: -501px -39px;}
+li#nv_blog a:hover {background-position: -668px -39px;}
+li#nv_ajmv a:hover {background-position: -835px -39px;}
+#bd_home #nv_home a {background-position: 0 -39px;}
+#bd_hiw #nv_hiw a {background-position: -168px -39px;}
+#bd_op #nv_op a {background-position: -334px -39px;}
+#bd_prog #nv_prog a {background-position: -501px -39px;}
+#bd_blog #nv_blog a {background-position: -668px -39px;}
+#bd_ajmv #nv_ajmv a {background-position: -835px -39px;}
