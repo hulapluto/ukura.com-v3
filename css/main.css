@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:Lato:300,400,700,700i,900);
 * {
-  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -8,6 +7,7 @@
 }
 
 html {
+  font-family: 'Lato', sans-serif;
   font-size: 62.5%;
 }
 
@@ -17,7 +17,13 @@ h1 {
 
 h1 span {
   color: #070607;
-  font-size: 80%;
+  font-size: 60%;
+}
+
+@media (max-width: 130rem) {
+  h1 {
+    font-size: 5rem;
+  }
 }
 
 h2 {
@@ -46,6 +52,10 @@ p > * + *, ul > * + * {
 
 p p:not(:last-of-type), ul p:not(:last-of-type) {
   margin-bottom: 2rem;
+}
+
+p {
+  line-height: 1.5;
 }
 
 h2, h3 {
@@ -122,13 +132,13 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-right: 15rem;
+  padding-left: 15rem;
 }
 
 @media (max-width: 60rem) {
@@ -157,18 +167,18 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: #d4e4bc;
-  padding: 8rem 15rem 10rem 15rem;
+  padding: 0rem 15rem 10rem 15rem;
 }
 
 @media (max-width: 37rem) {
   .intro {
-    padding: 3rem 2rem 5rem 2rem;
+    padding: 2rem 2rem 5rem 2rem;
   }
 }
 
 @media (max-width: 60rem) {
   .intro {
-    padding: 3rem 2rem 5rem 2rem;
+    padding: 2rem 2rem 5rem 2rem;
   }
 }
 
@@ -195,8 +205,8 @@ header {
 
 .intro .name {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 15rem;
-          flex: 0 0 15rem;
+      -ms-flex: 0 0 20rem;
+          flex: 0 0 20rem;
 }
 
 @media (max-width: 60rem) {
@@ -206,7 +216,7 @@ header {
             flex: 0 0 9rem;
   }
   .intro .name h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -231,6 +241,12 @@ header {
   height: auto;
 }
 
+@media (max-width: 130rem) {
+  .intro .desc img {
+    max-width: 80%;
+  }
+}
+
 @media (max-width: 37rem) {
   .intro .desc {
     width: 100%;
@@ -240,7 +256,7 @@ header {
 
 .about {
   color: #e83151;
-  padding: 8rem 15rem 10rem 15rem;
+  padding: 7rem 15rem 10rem 15rem;
 }
 
 @media (max-width: 37rem) {
@@ -301,7 +317,7 @@ header {
 .work {
   color: #0b5351;
   background-color: #d4e4bc;
-  padding: 8rem 15rem 10rem 15rem;
+  padding: 7rem 15rem 10rem 15rem;
 }
 
 @media (max-width: 37rem) {
@@ -369,7 +385,7 @@ header {
 
 .contact {
   color: #e83151;
-  padding: 8rem 15rem 10rem 15rem;
+  padding: 7rem 15rem 10rem 15rem;
 }
 
 @media (max-width: 37rem) {
@@ -385,7 +401,12 @@ header {
 }
 
 .contact p {
-  padding: 0 .5rem;
+  padding: 1rem .5rem;
+}
+
+.contact ul {
+  padding-top: 1.5rem;
+  padding-left: 5rem;
 }
 
 .contact .h2left {
@@ -406,6 +427,30 @@ header {
       -ms-flex: 1;
           flex: 1;
   margin: 1rem;
+}
+
+footer {
+  padding: 7rem 15rem 10rem 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e83151;
+  color: #fff;
+}
+
+@media (max-width: 37rem) {
+  footer {
+    padding: 3rem 2rem 5rem 2rem;
+  }
+}
+
+@media (max-width: 60rem) {
+  footer {
+    padding: 3rem 2rem 5rem 2rem;
+  }
 }
 
 .btn {
@@ -499,6 +544,15 @@ header {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 300px;
           flex: 0 0 300px;
+}
+
+@media (max-width: 37rem) {
+  .cards-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 95%;
+            flex: 0 0 95%;
+    text-align: center;
+  }
 }
 
 .cards-item .card-img-1 {

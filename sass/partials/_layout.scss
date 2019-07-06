@@ -2,9 +2,11 @@
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    padding-right: 15rem; //same as padding-main right
+    padding-left: 15rem; 
+    // padding-left: 5rem; 
+    //same as padding-main
 
     @include breakpoint(tablet) {
         justify-content: center;
@@ -23,7 +25,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     color: $c-tert;
-    @include padding-main;
+    @include padding-splash;
 
     @include breakpoint(mobile) {
         flex-direction: column;
@@ -36,18 +38,20 @@ header {
         }
     }
 
+
+
     .caption { 
         color: lighten($c-sec, 30%); 
     }
 
     .name {
-        flex: 0 0 15rem;
+        flex: 0 0 20rem;
 
         @include breakpoint(tablet) {
             flex: 0 0 9rem;
 
             h1 { 
-                font-size: 4.5rem; 
+                font-size: 4rem; 
             }
         }
     }
@@ -64,6 +68,10 @@ header {
             display: inline-block;
             max-width: 100%;
             height: auto;
+
+            @include breakpoint(laptop) {
+                max-width: 80%;
+            }
         }
 
         @include breakpoint(mobile) {
@@ -168,7 +176,12 @@ header {
     @include padding-main;
 
     p {
-        padding: 0 .5rem;
+        padding: 1rem .5rem;
+    }
+
+    ul {
+        padding-top: 1.5rem;
+        padding-left: 5rem;
     }
 
     .h2left {
@@ -185,4 +198,13 @@ header {
         flex: 1;
         margin: 1rem;
     }
+}
+
+footer {
+    @include padding-main;
+    display: flex;
+    justify-content: center;
+
+    background-color: $c-sec;
+    color: $c-white;
 }

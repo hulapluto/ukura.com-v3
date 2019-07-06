@@ -73,6 +73,11 @@
         background: linear-gradient( rgba($c-tert, .8) 40%, rgba($c-five, .8) );
         flex: 0 0 300px; //no grow or shrink only contained width to simulate grid
 
+        @include breakpoint(mobile) {
+            flex: 0 0 95%;
+            text-align: center;
+        }
+
         .card-img {
 
             &-1 {
