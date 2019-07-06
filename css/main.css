@@ -459,7 +459,7 @@ footer {
           box-sizing: border-box;
   -webkit-transition: 1s all;
   transition: 1s all;
-  pointer: cursor;
+  cursor: pointer;
 }
 
 .btn > * {
@@ -597,11 +597,21 @@ footer {
   margin-bottom: 1rem;
 }
 
+.cards-item .card a:link, .cards-item .card a:visited {
+  color: #e83151;
+  text-decoration: none;
+}
+
+.cards-item .card a:hover {
+  color: #e83151;
+  text-decoration: underline;
+}
+
 .cards-item .card .c-btn {
   margin: 2rem 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  pointer: cursor;
+  cursor: pointer;
   font-size: 1.2rem;
   text-transform: uppercase;
 }
